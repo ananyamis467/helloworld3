@@ -1,8 +1,9 @@
 package org.example;
 
+//driver 
 public class App {
     public static void main(String[] args) {
-      Greeter greeter = new Greeter();
-      System.out.println(greeter.getGreeting());
+      HelloWorld helloWorld = new HelloWorld();
+      System.out.println(helloWorld.getGreeting());
     }
 }
